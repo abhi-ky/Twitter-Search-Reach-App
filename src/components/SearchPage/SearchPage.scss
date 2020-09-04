@@ -1,0 +1,69 @@
+.App {
+    display: inline;
+    position: absolute;
+    /* text-align: center; */
+    top: 35%;
+    vertical-align: middle;
+    width: 100%;
+    // height: fit-content;
+    margin: 0 auto;
+  
+    .box{
+      display: block;
+      text-align: center;
+      margin: 0 auto;
+      // top: 50%;
+      width: 819px;
+      height: fit-content;
+      // background-color: pink;
+      .title{
+        font-size: 36px;
+        font-family: 'Muli';
+        img{
+          position: relative;
+          top:20px;
+          width: 87px;
+          height: 70px;
+          padding-left:20px;
+        }
+        vertical-align: middle;
+      }
+      #search{
+        position: relative;
+        width: 819px;
+        height: 50px;
+        top: 20px;
+        border-radius: 8px;
+        margin-top:20px;
+        margin-bottom: 50px;
+        &::placeholder{
+          opacity: 0.8;
+          padding-left: 20px;
+       }
+      }
+      .searchB{
+        position: relative;
+        display: block;
+        width: 140px;
+        height: 44px;
+        text-align: center;
+        margin-right: auto;
+        margin-left: auto;
+        #searchButton{
+          display: block;
+          margin: 0 auto;
+          position: relative;
+          width: 140px;
+          height: 44px;
+          color: white;
+          font-size: 14;
+          background-color: #00ADE2;
+          border: #707070;
+          border-radius: 8px;
+      
+        }
+      }
+  
+    }
+  }
+  
